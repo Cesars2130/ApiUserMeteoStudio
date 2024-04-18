@@ -1,6 +1,6 @@
 import { GetUSerByIdUseCase } from "../aplication/GetUserByIdUseCase";
-import { GetUserByEmailUseCase } from "../aplication/GetUserByEmailUseCase";
-import { GetUsersUseCase } from "../aplication/GetUsersUseCase";
+import { GetUserByEmailUseCase } from "../aplication/getUserByEmailUseCase";
+import { GetUsersUseCase } from "../aplication/getUsersUseCase";
 import { RegisterUserUseCase } from "../aplication/RegisterUserUseCase";
 import { LoginService } from "../aplication/ILoginService";
 
