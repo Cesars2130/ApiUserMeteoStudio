@@ -1,4 +1,4 @@
-import { GetUsersUseCase } from "../../aplication/GetUsersUseCase";
+import { GetUsersUseCase } from "../../aplication/getUsersUseCase";
 import { Request, Response } from "express";
 
 export class GetUsersController {
