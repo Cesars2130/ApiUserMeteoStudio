@@ -7,7 +7,6 @@ export const userRouter = express.Router();
 
 userRouter.post(
     "/",
-    verifyToken,
     registerUserController.run.bind(registerUserController)
 );
 
